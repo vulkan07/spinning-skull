@@ -7,7 +7,7 @@ url="https://github.com/vulkan07/spinning-skull"
 license=('MIT')
 depends=('gcc-libs')
 
-source=("$pkgname-$pkgver.tar.gz::https://github.com/vulkan07/spinning-skull/archive/v$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/vulkan07/spinning-skull/$pkgname-$pkgver.tar.gz")
 
 build() {
     cd "$srcdir/$pkgname-$pkgver"
